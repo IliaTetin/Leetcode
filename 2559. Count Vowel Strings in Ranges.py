@@ -27,3 +27,4 @@ class Solution:
         for i in queries:
             out.append(prefix[i[1]+1] - prefix[i[0]])
         return out
+        
