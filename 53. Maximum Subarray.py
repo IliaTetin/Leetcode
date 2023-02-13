@@ -15,3 +15,4 @@ class Solution:
             if current_sum < 0:
                 current_sum = 0
         return max_sum
+    
