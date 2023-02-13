@@ -7,7 +7,7 @@
 # The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.
 
 class Solution:
-    def maximumDifference(self, nums: List[int]) -> int:
+    def maximumDifference(self, nums) -> int:
         out = -1
         min_el = nums[0]
         for i in range(1, len(nums)):
