@@ -13,16 +13,5 @@
 
 class Solution:
     def removeDuplicates(self, nums):
-        l = len(nums)
-        if l == 1:
-            return l
-        i = 1
-        while i < l:
-            if nums[i] == nums[i-1]:
-                nums.pop(i)
-                l -= 1
-                i -= 1
-                if i == l:
-                    return l
-            i += 1
-        return l
+        nums[:] = sorted(set(nums))
+        return len(nums)
