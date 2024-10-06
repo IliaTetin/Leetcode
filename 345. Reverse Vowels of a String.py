@@ -6,7 +6,7 @@ class Solution:
         r = len(s)-1
 
         while l < r:
-            if s[l] inQ v:
+            if s[l] in v:
                 while s[r] not in v:
                     r -= 1
                 s[r], s[l] = s[l], s[r]
