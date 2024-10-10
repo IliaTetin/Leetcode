@@ -10,4 +10,3 @@ class Solution:
                 p = p + n
                 k += 1
         return out
-            
