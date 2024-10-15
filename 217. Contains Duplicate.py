@@ -14,4 +14,14 @@ class Solution:
                 return True
             hs.add(num)
         return False
-    
+
+#class Solution:
+#    def containsDuplicate(self, nums: List[int]) -> bool:
+#        hm = {}
+#        for i, val in enumerate(nums):
+#            if val not in hm:
+#                hm[val] = 1
+#            else:
+#                return True
+#        return False
+        
